@@ -1,9 +1,21 @@
-<a href="/new"><button type="button" name="button">Add New Collection</button></a>
+<a href="/new"><button type="button" name="button">Add New Collection</button></a><p>
 
 
 {{#posts}}
-{{artist}}
-<img src="{{imgURL}}" alt="" class="imgURL" />
-{{album}}
-{{release}}
+
+<section class="posts">
+  <div class="artist">
+    {{artist}}
+  </div>
+
+  <div class="album">
+    <img src="{{imgURL}}" alt="" class="imgURL" />
+    {{album}}
+    </div>
+
+  <div class="release">
+    {{release}}
+  </div>
+</section>
+
 {{/posts}}

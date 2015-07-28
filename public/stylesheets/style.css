@@ -15,3 +15,8 @@ a {
   height: 200px;
   width: 200px;
 }
+
+.posts {
+  margin-bottom: 10px;
+  text-align: center;
+}
