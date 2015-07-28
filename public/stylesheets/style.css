@@ -10,3 +10,8 @@ a {
 .nav {
   float: right;
 }
+
+.imgURL{
+  height: 200px;
+  width: 200px;
+}
