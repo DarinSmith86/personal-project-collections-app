@@ -9,6 +9,12 @@
       <a href="/logout">Logout</a>
     </nav>
   <body>
+    {{#if user}}
+      Hello {{user.username}}
+      {{else}}
+      Not logged in{{user.displayName}}!
+        {{/if}}
     {{{body}}}
+
   </body>
 </html>
