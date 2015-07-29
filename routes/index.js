@@ -53,6 +53,13 @@ router.get('/show/:id', function(req,res, next){
   })
 })
 
+router.post('/posts/:id/delete', function(req,res,next){
+  posts.remove({_id: req.params.id}, function(err,doc){
+    if(err) console.log(err);
+    res.redirect('/');
+  })
+})
+
 //   var spotify = require('spotify');
 //
 // spotify.search({ type: 'track', query: 'dancing in the moonlight' }, function(err, data) {
