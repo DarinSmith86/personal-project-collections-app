@@ -46,6 +46,13 @@ router.post('/coverSearch', function(req,res,next){
 
 })
 
+router.get('/show/:id', function(req,res, next){
+  posts.findOne({_id: req.params.id}, function(err,docs){
+    console.log(docs);
+    res.render('show', docs);
+  })
+})
+
 //   var spotify = require('spotify');
 //
 // spotify.search({ type: 'track', query: 'dancing in the moonlight' }, function(err, data) {
