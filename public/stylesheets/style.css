@@ -20,3 +20,13 @@ a {
   margin-bottom: 10px;
   text-align: center;
 }
+
+.albumCoverImage{
+  height: 400px;
+  width: 400px;
+  border:0;
+}
+
+img {
+   border: none;
+}
