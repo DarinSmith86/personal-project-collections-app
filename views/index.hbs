@@ -1,20 +1,20 @@
-<a href="/new"><button type="button" name="button">Add New Collection</button></a><p>
+<p>
+  <a href="/new"><button type="button" name="button" class="button">Add New Collection</button></a>
+</p>
+
 
 
 {{#posts}}
 
 <section class="posts">
   <div class="artist">
-    {{artist}}
+    {{artist}}: {{album}}: {{release}}
   </div>
 
   <div class="album">
-    <a href="/show/{{_id}}"><img src="{{imgURL}}" alt="" class="imgURL" /></a>
-    {{album}}
-    </div>
-
-  <div class="release">
-    {{release}}
+    <p>
+      <a href="/show/{{_id}}"><img src="{{imgURL}}" alt="" class="imgURL" /></a>
+    </p>
   </div>
 </section>
 

@@ -4,17 +4,21 @@
     <title>{{title}}</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
+  <header class="header">
+    <p class="postTitle">Post Your Vinyl Collection</p>
     <nav class="nav">
       <a href="/auth/instagram">Login</a>
       <a href="/logout">Logout</a>
     </nav>
+  </header>
   <body>
+  <p>
     {{#if user}}
-      Hello {{user.username}}
+      Hello {{user.username}}!
       {{else}}
-      Not logged in{{user.displayName}}!
+      Not Logged In{{user.displayName}}!
         {{/if}}
     {{{body}}}
-
+  </p>
   </body>
 </html>

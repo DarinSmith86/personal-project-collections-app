@@ -1,14 +1,39 @@
+.postTitle {
+  font-size: 40px;
+  text-align: center;
+}
+
+.header {
+  background-image: url(http://38.media.tumblr.com/tumblr_kx4gp9Srcg1qafd25.jpg);
+  background-size: auto;
+  height: 80px;
+  width: auto;
+  color: #fff;
+}
+
+
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #F2EFE4;
 }
 
 a {
-  color: #00B7FF;
+  color: #fff;
+}
+
+.back {
+  color: black;
 }
 
 .nav {
   float: right;
+  background-color: black;
+  height: auto;
+  width: 10%;
+  padding: 10px;
+  text-align: center;
 }
 
 .imgURL{
@@ -19,6 +44,12 @@ a {
 .posts {
   margin-bottom: 10px;
   text-align: center;
+  display: block;
+  margin: auto;
+  width: 60%;
+  border:3px solid #1030FE;
+  padding: 10px;
+
 }
 
 .albumCoverImage{
@@ -29,4 +60,18 @@ a {
 
 img {
    border: none;
+}
+
+.button {
+  color: #fff;
+  background-color: #6496c8;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+}
+
+.inputs {
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+  width: 30%;
 }
