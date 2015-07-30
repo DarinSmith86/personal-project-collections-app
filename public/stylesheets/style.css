@@ -75,3 +75,7 @@ img {
   transition: border 0.3s;
   width: 30%;
 }
+
+.description {
+  text-align: center;
+}
