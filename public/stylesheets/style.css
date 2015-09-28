@@ -1,3 +1,12 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+img, embed, object, video{
+  max-width: 100%;
+  height: auto;
+}
+
 .postTitle {
   font-size: 40px;
   text-align: center;
@@ -37,30 +46,29 @@ a {
 }
 
 .imgURL{
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
+  border-radius: 999em;
+  border: 10px solid #000;
 }
 
 .posts {
-  margin-bottom: 10px;
   text-align: center;
   display: block;
-  margin: auto;
+  margin: 0 auto;
   width: 60%;
-  border:3px solid #1030FE;
+  border:3px solid white;
   padding: 10px;
 
 }
 
 .albumCoverImage{
+  border: none;
   height: 400px;
   width: 400px;
   border:0;
 }
 
-img {
-   border: none;
-}
 
 .button {
   color: #fff;

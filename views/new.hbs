@@ -7,32 +7,32 @@
 
   <div class="inputs">
     <label for="imgURL">Image URL:
-    <input type="text" name="imgURL" id="imgURL"value="">
-  </label>
+      <input type="text" name="imgURL" id="imgURL"value="">
+    </label>
   </div>
 
-<div class="inputs">
-  <label for="artist">Artist:
-  <input type="text" name="artist" id="artist"value="">
-</label>
-</div>
+  <div class="inputs">
+    <label for="artist">Artist:
+      <input type="text" name="artist" id="artist"value="">
+    </label>
+  </div>
 
-<div class="inputs">
-  <label for="album">Album:
-  <input type="text" name="album" id="album"value="">
-</label>
-</div>
+  <div class="inputs">
+    <label for="album">Album:
+      <input type="text" name="album" id="album"value="">
+    </label>
+  </div>
 
-<div class="inputs">
-  <label for="release">Release Date:
-  <input type="text" name="release" id="release"value="">
-</label>
-</div>
+  <div class="inputs">
+    <label for="release">Release Date:
+      <input type="text" name="release" id="release"value="">
+    </label>
+  </div>
 
-<p>
-  Add Album Description Here:
-</p>
-<textarea name="albumDescription" rows="8" cols="40" placeholder="Album Description"></textarea>
+  <p>
+    Add Album Description Here:
+  </p>
+  <textarea name="albumDescription" rows="8" cols="40" placeholder="Album Description"></textarea>
 
   <input type="submit" class="button" value="Add Collection">
 
@@ -50,7 +50,17 @@
   </form>
 
 </div>
+<div class="searchImages">
+  <img src="{{albumCover}}" alt="" class="albumCoverImage"/>
+  <img src="{{albumCover2}}" alt="" class="albumCoverImage"/>
+  <img src="{{albumCover3}}" alt="" class="albumCoverImage"/>
+</div>
 
-<img src="{{albumCover}}" alt="" class="albumCoverImage"/>
-<img src="{{albumCover2}}" alt="" class="albumCoverImage"/>
-<img src="{{albumCover3}}" alt="" class="albumCoverImage"/>
+
+<!-- <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+
+<script type="text/javascript">
+  $( ".button" ).click(function() {
+  $( ".searchImages" ).show();
+});
+</script> -->
