@@ -38,13 +38,15 @@ a {
 
 .nav {
   float: right;
-  background-color: black;
   height: auto;
-  width: 10%;
   padding: 10px;
   text-align: center;
 }
 
+.nav a{
+  color: white;
+  text-decoration: none;
+}
 .imgURL{
   height: 300px;
   width: 300px;
