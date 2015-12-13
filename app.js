@@ -13,7 +13,7 @@ var passport = require('passport');
 var spotify = require('spotify');
 var InstagramStrategy = require('passport-instagram').Strategy;
 var INSTAGRAM_CLIENT_ID = "f45dd0e8e8c643be9037cee21b58f145";
-var INSTAGRAM_CLIENT_SECRET = "f4a2a4854e1d47c69a6baf43922c17e2";
+var INSTAGRAM_CLIENT_SECRET = "3d09f445213642e4bbb8ecf796241d14";
 
 var app = express();
 
