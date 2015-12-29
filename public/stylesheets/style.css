@@ -30,6 +30,7 @@ body {
 
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 .back {
@@ -41,6 +42,10 @@ a {
   height: auto;
   padding: 10px;
   text-align: center;
+  color: #fff;
+  background-color: #6496c8;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
 }
 
 /* .nav a{
